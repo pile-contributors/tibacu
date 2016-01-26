@@ -18,8 +18,10 @@ macro    (tibacuInit
 
     # compose the list of headers and sources
     set(TIBACU_HEADERS
+        "d1/tid1_linear.h"
         "tibacu.h")
     set(TIBACU_SOURCES
+        "d1/tid1_linear.h"
         "tibacu.cc")
 
     pileSetSources(
